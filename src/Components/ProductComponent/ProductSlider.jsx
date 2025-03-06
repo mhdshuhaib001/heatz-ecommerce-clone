@@ -106,6 +106,7 @@ function ProductSlider({ products = [], categories = [], viewAllLink }) {
                   <img
                     src={product.image}
                     alt={product.name}
+                    loading="lazy"
                     className="object-contain h-full w-full"
                   />
                   {product.label && (

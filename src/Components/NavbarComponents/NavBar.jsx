@@ -8,35 +8,35 @@ const productSlides = [
         id: 1,
         name: "Gaming Headset",
         price: "1999",
-        image: "/headset1.jpg",
+        image: "/Product/headphone (3).jpg",
         colors: ["#000", "#ccc", "#ff0000"]
       },
       {
         id: 2,
         name: "Wireless Headset",
         price: "2499",
-        image: "/headset2.jpg",
+        image: "/Product/headphone (3).jpg",
         colors: ["#00ff00", "#0000ff"]
       },
       {
         id: 3,
         name: "Pro Headset",
         price: "2999",
-        image: "/headset3.jpg",
+        image: "/Product/Watche1 (3).jpeg",
         colors: ["#ffcc00", "#333"]
       },
       {
         id: 4,
         name: "Pro Headset",
         price: "2999",
-        image: "/headset3.jpg",
+        image: "/Product/keybord.png",
         colors: ["#ffcc00", "#333"]
       },
       {
         id: 5,
         name: "Pro Headset",
         price: "2999",
-        image: "/headset3.jpg",
+        image: "/Product/headphone (3).jpg",
         colors: ["#ffcc00", "#333"]
       }
       ,
@@ -44,11 +44,11 @@ const productSlides = [
         id: 6,
         name: "Pro Headset",
         price: "2999",
-        image: "/headset3.jpg",
+        image: "/Product/headphone (3).jpg",
         colors: ["#ffcc00", "#333"]
       }
     ],
-    featuredImage: "/featured-headset.jpg",
+    featuredImage: "PromoProduct/Keyboard5.jpg",
     featuredAlt: "Premium Gaming Headset"
   }
 ];

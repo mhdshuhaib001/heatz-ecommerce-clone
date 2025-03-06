@@ -4,7 +4,7 @@ import { Heart, ShoppingCart } from "lucide-react";
 function ProductGrid({ product }) {
   return (
     <div className="group relative bg-gray-100 rounded-xl overflow-hidden hover:bg-white/95 transition-colors shadow-sm hover:shadow-md">
-      <div className="flex items-center justify-center p-4 h-28">
+      <div className="flex items-center justify-center p-4 h-32">
         <img
           src={product.image || "/placeholder.svg"}
           alt={product.name}

@@ -23,7 +23,6 @@ const VideoSlider = ({ videos, title, description }) => {
       </div>
 
       <div className="relative flex items-center w-full">
-        {/* Left Navigation Button */}
         <motion.button
           whileTap={{ scale: 0.9 }}
           className="absolute left-2 sm:left-4 z-10 p-2 rounded-full shadow-md bg-gray-800/50 hover:bg-gray-700"
@@ -60,6 +59,7 @@ const VideoSlider = ({ videos, title, description }) => {
                     muted
                     loop
                     autoPlay
+                      loading="lazy"
                     playsInline
                     className="w-full h-full object-cover"
                   />
@@ -69,7 +69,6 @@ const VideoSlider = ({ videos, title, description }) => {
           </div>
         </div>
 
-        {/* Right Navigation Button */}
         <motion.button
           whileTap={{ scale: 0.9 }}
           className="absolute right-2 sm:right-4 z-10 p-2 rounded-full shadow-md bg-gray-800/50 hover:bg-gray-700"
